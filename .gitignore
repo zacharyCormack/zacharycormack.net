@@ -1,0 +1,21 @@
+# Don't check auto-generated stuff into git
+coverage
+build
+node_modules
+stats.json
+loadable-stats.json
+**/loadable-stats.json
+# Cruft
+.DS_Store
+npm-debug.log
+.idea
+
+**/generated.*
+
+db
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+.vscode
